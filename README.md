@@ -8,7 +8,7 @@ This folder contains the datasets which were used to create the models. They wer
 
 ## Clean Data
 
-The data originally starts out with 153 features and close to 50,000 data points, but features that were not indicative of the presence of alcohol were removed, as were data points in which the some of the remaining features had unknowns as values. Some features are added (based on other features), and the final dataframe contains 6 features and about 14,000 data points. The means of the two different categories (drunk and sober) are compared, with categorical features having means that represent the proportion of times that feature would occur.
+The data originally starts out with 153 features and close to 50,000 data points, but features that were not indicative of the presence of alcohol were removed, as were data points in which the some of the remaining features had unknowns as values. Some features are added (based on other features), and the final dataframe contains 6 features and about 11,000 data points. The means of the two different categories (drunk and sober) are compared, with categorical features having means that represent the proportion of times that feature would occur. The dataframe was then pickled to be used in a different file.
 
 ## Modeling - Class Imbalance
 
